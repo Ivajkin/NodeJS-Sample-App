@@ -28,7 +28,7 @@ public class Main {
     port(Integer.valueOf(System.getenv("PORT")));
     staticFileLocation("/public");
 
-    get("/", (request, response) -> {
+    get("/hello-world", (request, response) -> {
             Map<String, Object> attributes = new HashMap<>();
             attributes.put("message", "Hello World!");
 
@@ -36,7 +36,7 @@ public class Main {
         }, new FreeMarkerEngine());
 
     /* Testing DB with recording of "ticks" */
-    get("/db", (req, res) -> {
+    get("/", (req, res) -> {
       Connection connection = null;
       Map<String, Object> attributes = new HashMap<>();
       try {
