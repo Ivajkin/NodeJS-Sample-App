@@ -17,6 +17,11 @@
     </#list>
     </ul>
 
+    <form method="post" action="/depot">
+        <label>Добавить элемент склада</label>
+        <input type="text">
+        <input type="submit" value="[+]">
+    </form>
 </div>
 
 </body>
