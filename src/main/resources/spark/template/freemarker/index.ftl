@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- http://www.mphkv.ru/ -->
 <html lang="en" dir="ltr"><!--<![endif]-->
 <head>
     <#include "header.ftl">
